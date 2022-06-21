@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.bigger-container{
+    width: 70%;
+    
+    background-color: aqua;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 60px 400px;
+    border: 1px solid black;
+    height: 10vh;
+    width: 100%;
+    background-color: lightgray;
+}
+.work-container{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container>div{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+
+}
